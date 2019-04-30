@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@addi/libs/client-management": [
+        "libs/libs/client-management/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

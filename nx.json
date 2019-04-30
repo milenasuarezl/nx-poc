@@ -13,6 +13,18 @@
     },
     "addi-e2e": {
       "tags": []
+    },
+    "libs-client-management": {
+      "tags": ["y"]
+    },
+    "libs-library-test": {
+      "tags": []
+    },
+    "libs-library-test1": {
+      "tags": []
+    },
+    "libs-clients": {
+      "tags": []
     }
   }
 }
