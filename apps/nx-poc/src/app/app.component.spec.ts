@@ -14,10 +14,10 @@ xdescribe("AppComponent", () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'addi'`, () => {
+  it(`should have as title 'nx-poc'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual("addi");
+    expect(app.title).toEqual("nx-poc");
   });
 
   it("should render title in a h1 tag", () => {
@@ -25,7 +25,7 @@ xdescribe("AppComponent", () => {
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector("h1").textContent).toContain(
-      "Welcome to addi!"
+      "Welcome to nx-poc!"
     );
   });
 });

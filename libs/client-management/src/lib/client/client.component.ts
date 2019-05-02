@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'addi-client',
+  selector: 'nx-poc-client',
   templateUrl: './client.component.html',
   styleUrls: ['./client.component.css']
 })

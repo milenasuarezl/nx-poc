@@ -1,7 +1,7 @@
 module.exports = {
-  name: "addi",
+  name: "nx-poc",
   preset: "../../jest.config.js",
-  coverageDirectory: "../../coverage/apps/addi/",
+  coverageDirectory: "../../coverage/apps/nx-poc/",
   snapshotSerializers: [
     "jest-preset-angular/AngularSnapshotSerializer.js",
     "jest-preset-angular/HTMLCommentSerializer.js"

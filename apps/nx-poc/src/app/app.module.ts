@@ -1,6 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { ClientManagementModule } from '@addi/client-management';
+import { ClientManagementModule } from '@nx-poc/client-management';
 import { AppComponent } from "./app.component";
 
 @NgModule({

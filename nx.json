@@ -1,5 +1,5 @@
 {
-  "npmScope": "addi",
+  "npmScope": "nx-poc",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
@@ -8,10 +8,10 @@
     "nx.json": "*"
   },
   "projects": {
-    "addi": {
+    "nx-poc": {
       "tags": []
     },
-    "addi-e2e": {
+    "nx-poc-e2e": {
       "tags": []
     },
     "client-management": {
