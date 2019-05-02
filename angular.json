@@ -118,9 +118,9 @@
         }
       }
     },
-    "libs-client-management": {
-      "root": "libs/libs/client-management",
-      "sourceRoot": "libs/libs/client-management/src",
+    "client-management": {
+      "root": "libs/client-management",
+      "sourceRoot": "libs/client-management/src",
       "projectType": "library",
       "prefix": "addi",
       "architect": {
@@ -128,8 +128,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/libs/client-management/tsconfig.lib.json",
-              "libs/libs/client-management/tsconfig.spec.json"
+              "libs/client-management/tsconfig.lib.json",
+              "libs/client-management/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -137,9 +137,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "libs/libs/client-management/src/test.ts",
-            "tsConfig": "libs/libs/client-management/tsconfig.spec.json",
-            "karmaConfig": "libs/libs/client-management/karma.conf.js"
+            "main": "libs/client-management/src/test.ts",
+            "tsConfig": "libs/client-management/tsconfig.spec.json",
+            "karmaConfig": "libs/client-management/karma.conf.js"
           }
         }
       },
@@ -149,9 +149,9 @@
         }
       }
     },
-    "libs-library-test": {
-      "root": "libs/libs/library-test",
-      "sourceRoot": "libs/libs/library-test/src",
+    "client-acceptances": {
+      "root": "libs/client-acceptances",
+      "sourceRoot": "libs/client-acceptances/src",
       "projectType": "library",
       "prefix": "addi",
       "architect": {
@@ -159,8 +159,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/libs/library-test/tsconfig.lib.json",
-              "libs/libs/library-test/tsconfig.spec.json"
+              "libs/client-acceptances/tsconfig.lib.json",
+              "libs/client-acceptances/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -168,71 +168,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "libs/libs/library-test/src/test.ts",
-            "tsConfig": "libs/libs/library-test/tsconfig.spec.json",
-            "karmaConfig": "libs/libs/library-test/karma.conf.js"
-          }
-        }
-      },
-      "schematics": {
-        "@nrwl/schematics:component": {
-          "styleext": "scss"
-        }
-      }
-    },
-    "libs-library-test1": {
-      "root": "libs/libs/library-test1",
-      "sourceRoot": "libs/libs/library-test1/src",
-      "projectType": "library",
-      "prefix": "addi",
-      "architect": {
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/libs/library-test1/tsconfig.lib.json",
-              "libs/libs/library-test1/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "libs/libs/library-test1/src/test.ts",
-            "tsConfig": "libs/libs/library-test1/tsconfig.spec.json",
-            "karmaConfig": "libs/libs/library-test1/karma.conf.js"
-          }
-        }
-      },
-      "schematics": {
-        "@nrwl/schematics:component": {
-          "styleext": "scss"
-        }
-      }
-    },
-    "libs-clients": {
-      "root": "libs/libs/clients",
-      "sourceRoot": "libs/libs/clients/src",
-      "projectType": "library",
-      "prefix": "addi",
-      "architect": {
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/libs/clients/tsconfig.lib.json",
-              "libs/libs/clients/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
-          }
-        },
-        "test": {
-          "builder": "@nrwl/builders:jest",
-          "options": {
-            "jestConfig": "libs/libs/clients/jest.config.js",
-            "tsConfig": "libs/libs/clients/tsconfig.spec.json",
-            "setupFile": "libs/libs/clients/src/test-setup.ts"
+            "main": "libs/client-acceptances/src/test.ts",
+            "tsConfig": "libs/client-acceptances/tsconfig.spec.json",
+            "karmaConfig": "libs/client-acceptances/karma.conf.js"
           }
         }
       },
